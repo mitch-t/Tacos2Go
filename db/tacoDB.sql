@@ -1,0 +1,8 @@
+CREATE DATABASE tacos_db;
+USE tacos_db;
+
+CREATE TABLE tacos(
+	id INTEGER AUTO_INCREMENT PRIMARY KEY,
+	taco_name VARCHAR(50),
+	cooked BOOLEAN); 
+
