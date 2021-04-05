@@ -1,6 +1,4 @@
-body {
-    background-color: #ffef00;
-  }
+
   
   img {
     border-width: 5px;
@@ -8,11 +6,10 @@ body {
     border-color: #db001d;
     border-style: double;
     width: 20%;
-    background-color: #ffef00;
+   
   }
-  .row{
-    background-color:#FFC72C ;
-  }
+  
+  
   .Tfont {
     color: #db001d;
     font-size: xx-large; 

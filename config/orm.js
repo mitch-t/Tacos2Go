@@ -21,7 +21,9 @@ var orm = {
   },
 
   updateOne: function(tacoID, callback){
-    connection.query("UPDATE tacos SET ? WHERE ?", [{cooked: true}, {id: tacoID}], function (err, response) {
+    connection.query("UPDATE tacos SET ? WHERE ?",
+     [{cooked: true}, {id: tacoID}], 
+     function (err, response) {
         if (err) throw err;
         callback(response);
       });
